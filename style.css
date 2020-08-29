@@ -1,0 +1,76 @@
+html body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+table {
+    max-width: 50%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    height: 100%;
+
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #4287f5;
+}
+
+.about {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-height: 1em;
+    max-height: 2em;
+}
+
+.eyeColor {
+    width: 100%;
+    height: 100%;
+}
+
+.edit {
+    height: 150px;
+    width: 30%;
+    
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    padding-top: 10px;
+
+    border: 1px #000000 solid;
+}
+
+.edit input {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.edit p {
+    
+}
+
+footer {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
